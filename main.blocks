@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="OT;0[F}SU`Nohl86Wcg/">Cont</variable><variable id="yfh%VZ2vZ@]Pds%{aU/[">VD</variable></variables><block type="pxt-on-start" id="6QXSe0B`ypf)^[S|L#VB" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="QKMD|Q#C_?{bu[piSRoA"><field name="VAR" id="yfh%VZ2vZ@]Pds%{aU/[">VD</field><value name="VALUE"><shadow type="math_number" id="y?$eiH7n8mT!~i?#`^L."><field name="NUM">0</field></shadow></value></block></statement></block><block type="device_forever" id="oL/z4=ibdk`I.oOn@Ky?" x="-2" y="158"><statement name="HANDLER"><block type="controls_if" id="0$r%D5)u7tah@+pfMc6l"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="ND.=iLdoT_#SEOT5wW[W"><field name="gesture">Gesture.Shake</field></block></value><statement name="DO0"><block type="variables_set" id="r/3=)/3Z8gGp7kb!nB)h"><field name="VAR" id="yfh%VZ2vZ@]Pds%{aU/[">VD</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="YD6Yi-xxwW3Gw_DCIfn1"><value name="min"><shadow type="math_number" id="k@YNG`.!Si[h^~7e7;6~"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="qP8h[lj/WR,rEO|q=VTz"><field name="NUM">6</field></shadow></value></block></value><next><block type="device_show_leds" id="pL0scKU%l{l@AOuIvO-a"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="ehx01#.8ZPrl9+hObWIE"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="gn[-{;V7!%y.hvtP7p*C"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # # # #
+        `</field></block></next></block></next></block></next></block></statement><next><block type="device_show_number" id="scc#z2?TQoG{*,`qk#~]"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="bSc?[sXI-Q8z)g%Q@T{b"><field name="VAR" id="yfh%VZ2vZ@]Pds%{aU/[">VD</field></block></value></block></next></block></statement></block></xml>
